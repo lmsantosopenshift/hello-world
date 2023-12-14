@@ -2,7 +2,7 @@ FROM quay.io/luismg26/golang:1.15
 
 ADD src/hello-world.go hello-world.go
 
-ENV MESSAGE "Welcome! You can change this message by replacing the MESSAGE environment variable."
+ENV MESSAGE "HACKED!! By Luis Inc.."
 ENV HOME /go
 
 RUN chgrp -R 0 /go && chmod -R g+rwX /go
