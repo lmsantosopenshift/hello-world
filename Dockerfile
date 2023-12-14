@@ -2,7 +2,7 @@ FROM quay.io/luismg26/golang:1.15
 
 ADD src/hello-world.go hello-world.go
 
-ENV MESSAGE "Web Restaurada. LLamar a POLICIA"
+ENV MESSAGE "Kacked By LUIS Inc. AGAIN... Muhahahahah"
 ENV HOME /go
 
 RUN chgrp -R 0 /go && chmod -R g+rwX /go
